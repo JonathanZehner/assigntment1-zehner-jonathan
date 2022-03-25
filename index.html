@@ -17,7 +17,42 @@
         </header>
 
         <div>
-            <form action="">
+            <form action="" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="pwd" name="pwd"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="tel">Phone:</label><br>
+                <input type="tel" id="tel" name="tel"><br>
+
+                <section class="sect-1">
+                    <label for="radio">When is the best time to contact you?</label><br>
+                    <form action="">
+                        <input type="radio" id="morning" name="morning" value="morning">
+                        <label for="morning">morning</label>
+
+                        <input type="radio" id="afternoon" name="afternoon" value="afternoon">
+                        <label for="afternoon">afternoon</label>
+
+                        <input type="radio" id="evening" name="evening" value="evening">
+                        <label for="evening">evening</label>
+                    </form>
+                </section>
+
+                <textarea name="message" id="comments" cols="30" rows="10">Enter your comments here...
+                </textarea><br>
+
+                <label for="method">Please choose your preferred contact method:</label>
+                <select name="method" id="method">
+                    <option value="call">Call</option>
+                    <option value="text" selected>Text</option>
+                    <option value="email">Email</option>
+                </select>
 
             </form>
         </div>
