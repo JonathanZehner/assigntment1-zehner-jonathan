@@ -1,0 +1,82 @@
+* {
+  border: none;
+  margin: none;
+  padding: none;
+}
+
+/*--==== Fonts ====--*
+
+    Google Fonts: 'Jost'
+    
+==================--*/
+
+/*--==== UNIVERSAL STYLING ====--*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: seashell;
+  display: flex;
+  flex-direction: column;
+  font: 300 1rem/1.5 "Jost";
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+/*-- Header --*/
+header {
+  background-color: rgba(0, 0, 0, 0.795);
+  display: block;
+  margin: auto;
+  padding: 20px 15px;
+  width: 100%;
+}
+
+.header {
+  margin: auto;
+  max-width: 1000px;
+}
+
+header img {
+  float: left;
+}
+
+header h1 {
+  clear: both;
+  color: seashell;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+/*-- Form --*/
+.form {
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.form div {
+  padding: 15px;
+}
+
+/*-- Footer --*/
+.footer {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: seashell;
+  flex-shrink: 0;
+  padding: 10px;
+}
+
+.footer h2 {
+  font: 100 1rem/1 "Josefin Sans", "Jost", sans-serif;
+}
+
+.footer p {
+  font: 200 0.75rem/1 "Jost", Helvetica, sans-serif;
+}
